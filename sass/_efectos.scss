@@ -1,0 +1,21 @@
+.efecto{
+    overflow: visible;
+    .efecto img{
+        transition: all 1s;
+    }
+    .efecto:hover img{
+        transform: scale(1.1);
+    }
+}
+
+
+/* -----Se quedan en la tarjeta----- */
+.efectos{
+    overflow: hidden;
+}
+.efectos img{
+    transition: all 2s;
+}
+.efectos:hover img{
+    transform: scale(1.2);
+}

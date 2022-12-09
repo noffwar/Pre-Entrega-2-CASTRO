@@ -1,0 +1,34 @@
+.cardgral{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .card{
+        width: 210px;
+        border: 4px solid ;
+        border-radius: 10px;
+        margin: 15px;
+        display: inline-block;
+        img{
+            width: 100% ;
+            border-radius: 5px;
+        }
+    }
+}
+
+.card__titulo , .card__desc{
+    text-align: center;
+}
+.btn{
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+.envio {
+    width: 120px;
+    height: 120px;
+    margin-left: 30px;
+}

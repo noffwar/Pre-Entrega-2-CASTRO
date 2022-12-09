@@ -1,0 +1,24 @@
+/* -Formulario- */
+form{
+    margin: 10px;
+    .nform, .eform, .tform, .mform{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* -Redes- */
+div ul li {
+    list-style-type: none;
+    a {
+        text-decoration: none;
+    }
+}
+main div ul li a{
+    color: #1d1e1d;
+}
+.dejatumensaje{
+    padding: 30px;
+}
+.nuestrasredes{
+    padding: 30px;
+}
