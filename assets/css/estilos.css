@@ -141,30 +141,33 @@ footer {
        column-gap: 200px;
   background-color: #ebe7d9;
 }
-.padre .item1 {
+
+.item1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
 }
-.padre .item2 {
+
+.item2 {
   margin: auto;
 }
-.padre .item3 {
+
+.item3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
 }
+
 @media screen and (max-width: 900px) {
-  .padre .padre {
+  .padre {
     grid-template-columns: repeat(1, 1fr);
     -moz-column-gap: 20px;
          column-gap: 20px;
     padding: 50px;
   }
 }
-
 .efecto {
   overflow: visible;
 }
@@ -186,4 +189,27 @@ footer {
 
 .efectos:hover img {
   transform: scale(1.2);
+}
+
+.btn {
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn2 {
+  background-color: red;
+  color: white;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
 }/*# sourceMappingURL=estilos.css.map */
