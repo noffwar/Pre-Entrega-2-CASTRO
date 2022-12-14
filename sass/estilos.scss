@@ -11,15 +11,15 @@
 @import "mixin";
 @import "extend";
 
-// Incluyo mixin
-.btn2{
-    @include button(red,white)
-}
+
 // Incluyo extend
 .btn{
     @extend %button;
     background-color: blue;
     color: white;
 }
-
+// Incluyo mixin
+.btn2{
+    @include button(red,white)
+}
 

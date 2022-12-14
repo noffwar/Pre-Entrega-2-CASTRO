@@ -199,6 +199,11 @@ footer {
   text-decoration: none;
 }
 
+.btn {
+  background-color: blue;
+  color: white;
+}
+
 .btn2 {
   background-color: red;
   color: white;
@@ -207,9 +212,4 @@ footer {
   border-radius: 5px;
   padding: 10px;
   text-decoration: none;
-}
-
-.btn {
-  background-color: blue;
-  color: white;
 }/*# sourceMappingURL=estilos.css.map */
