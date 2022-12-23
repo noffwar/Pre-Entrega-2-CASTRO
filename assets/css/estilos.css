@@ -124,6 +124,19 @@ main div ul li a {
   padding: 30px;
 }
 
+.enviar {
+  display: flex;
+}
+
+.redes {
+  padding: 10px;
+}
+
+.icono {
+  width: 2%;
+  height: 2%;
+}
+
 footer {
   background-color: #ebe7d9;
   position: static;
