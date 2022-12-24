@@ -124,8 +124,18 @@ main div ul li a {
   padding: 30px;
 }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 8px;
+}
+
 .enviar {
   display: flex;
+  flex-direction: column;
+  width: 130px;
+  margin-top: 8px;
 }
 
 .redes {
@@ -160,6 +170,7 @@ footer {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
+  font-family: "Poppins", sans-serif;
 }
 
 .item2 {
@@ -178,7 +189,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     -moz-column-gap: 20px;
          column-gap: 20px;
-    padding: 50px;
+    padding: 20px;
   }
 }
 .efecto {

@@ -22,8 +22,17 @@ main div ul li a{
 .nuestrasredes{
     padding: 30px;
 }
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 8px;
+}
 .enviar{
     display: flex;
+    flex-direction: column;
+    width: 130px;
+    margin-top: 8px;
 }
 .redes{
     padding: 10px;
